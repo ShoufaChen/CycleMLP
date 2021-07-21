@@ -23,11 +23,11 @@ We provide CycleMLP models pretrained on ImageNet 2012.
 
 | Model                | Parameters | FLOPs    | Top 1 Acc. | Download |
 | :------------------- | :--------- | :------- | :--------- | :------- |
-| CycleMLP-B1          | 15M        |  2.1G    |  78.9%     |          |
-| CycleMLP-B2          | 27M        |  3.9G    |  81.6%     |          |
-| CycleMLP-B3          | 38M        |  6.9G    |  82.4%     |          |
-| CycleMLP-B4          | 52M        |  10.1G   |  83.0%     |          |
-| CycleMLP-B5          | 76M        |  12.3G   |  83.2%     |          |
+| CycleMLP-B1          | 15M        |  2.1G    |  78.9%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B1.pth)|
+| CycleMLP-B2          | 27M        |  3.9G    |  81.6%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B2.pth)|
+| CycleMLP-B3          | 38M        |  6.9G    |  82.4%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B3.pth)|
+| CycleMLP-B4          | 52M        |  10.1G   |  83.0%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B4.pth)|
+| CycleMLP-B5          | 76M        |  12.3G   |  83.2%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B5.pth)|
 
 
 # Usage

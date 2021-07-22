@@ -1,4 +1,4 @@
-# A MLP-like Architecture for Dense Prediction
+# A MLP-like Architecture for Dense Prediction ([arXiv](https://arxiv.org/abs/2107.10224))
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)
@@ -84,7 +84,20 @@ To train CycleMLP-B5 on ImageNet on a single node with 8 gpus for 300 epochs run
 ```
 python -m torch.distributed.launch --nproc_per_node=8 --use_env main.py --model CycleMLP_B5 --batch-size 128 --data-path /path/to/imagenet --output_dir /path/to/save
 ```
+## Acknowledgement
+This code is based on [DeiT](https://github.com/facebookresearch/deit) and [pytorch-image-models](https://github.com/rwightman/pytorch-image-models). Thanks for their wonderful works
 
+
+# Citing
+
+```bibtex
+@article{chen2021cyclemlp,
+  title={CycleMLP: A MLP-like Architecture for Dense Prediction},
+  author={Chen, Shoufa and Xie, Enze and Ge, Chongjian and Liang, Ding and Luo, Ping},
+  journal={arXiv preprint arXiv:2107.10224},
+  year={2021}
+}
+```
 
 # License
 

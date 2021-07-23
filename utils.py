@@ -13,12 +13,12 @@ import datetime
 
 import torch
 import torch.distributed as dist
+from collections import Counter
+import typing
+from typing import Any, List
 
 try:
     from fvcore.nn.jit_handles import get_shape, conv_flop_count
-    from collections import Counter
-    import typing
-    from typing import Any, List
 except ImportError:
     has_fvcore = False
 

@@ -1,4 +1,4 @@
-# A MLP-like Architecture for Dense Prediction ([arXiv](https://arxiv.org/abs/2107.10224))
+# CycleMLP: A MLP-like Architecture for Dense Prediction ([arXiv](https://arxiv.org/abs/2107.10224))
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)

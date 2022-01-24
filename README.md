@@ -93,7 +93,7 @@ This code is based on [DeiT](https://github.com/facebookresearch/deit) and [pyto
 ```bibtex
 @article{chen2021cyclemlp,
   title={CycleMLP: A MLP-like Architecture for Dense Prediction},
-  author={Chen, Shoufa and Xie, Enze and Ge, Chongjian and Liang, Ding and Luo, Ping},
+  author={Chen, Shoufa and Xie, Enze and Ge, Chongjian and Chen, Runjian and Liang, Ding and Luo, Ping},
   journal={arXiv preprint arXiv:2107.10224},
   year={2021}
 }

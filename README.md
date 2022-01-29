@@ -13,6 +13,7 @@
 
 # Updates
 
+- (29/01/2022) CycleMLP is accepted by ICLR 2022 as an **oral presentation**.:fire::fire::fire:
 - (22/07/2021) Initial release.
 
 
@@ -91,11 +92,13 @@ This code is based on [DeiT](https://github.com/facebookresearch/deit) and [pyto
 # Citing
 
 ```bibtex
-@article{chen2021cyclemlp,
-  title={CycleMLP: A MLP-like Architecture for Dense Prediction},
-  author={Chen, Shoufa and Xie, Enze and Ge, Chongjian and Chen, Runjian and Liang, Ding and Luo, Ping},
-  journal={arXiv preprint arXiv:2107.10224},
-  year={2021}
+@inproceedings{
+chen2022cyclemlp,
+title={Cycle{MLP}: A {MLP}-like Architecture for Dense Prediction},
+author={Shoufa Chen and Enze Xie and Chongjian GE and Runjian Chen and Ding Liang and Ping Luo},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=NMEceG4v69Y}
 }
 ```
 

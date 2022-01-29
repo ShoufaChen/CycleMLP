@@ -1,4 +1,4 @@
-# CycleMLP: A MLP-like Architecture for Dense Prediction ([arXiv](https://arxiv.org/abs/2107.10224))
+## CycleMLP: A MLP-like Architecture for Dense Prediction (ICLR 2022 Oral)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)
@@ -11,14 +11,16 @@
   <img src="figures/flops.png" height="300" />
 </p>
 
-# Updates
+This is a PyTorch implementation of the paper [CycleMLP: A MLP-like Architecture for Dense Prediction](https://arxiv.org/abs/2107.10224).
+
+## Updates
 
 - (29/01/2022) CycleMLP is accepted by ICLR 2022 as an **oral presentation**.:fire::fire::fire:
 - (22/07/2021) Initial release.
 
 
 
-# Model Zoo
+## Model Zoo
 
 We provide CycleMLP models pretrained on ImageNet 2012.
 
@@ -31,10 +33,10 @@ We provide CycleMLP models pretrained on ImageNet 2012.
 | CycleMLP-B5          | 76M        |  12.3G   |  83.2%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B5.pth)|
 
 
-# Usage
+## Usage
 
 
-## Install
+### Install
 
 - PyTorch 1.7.0+ and torchvision 0.8.1+
 - [timm](https://github.com/rwightman/pytorch-image-models/tree/c2ba229d995c33aaaf20e00a5686b4dc857044be):
@@ -51,7 +53,7 @@ pip install -e .
 - fvcore (optional, for FLOPs calculation)
 - mmcv, mmdetection, mmsegmentation (optional)
 
-## Data preparation
+### Data preparation
 
 Download and extract ImageNet train and val images from http://image-net.org/.
 The directory structure is:
@@ -72,24 +74,24 @@ The directory structure is:
 │  ├── ......
 ```
 
-## Evaluation
+### Evaluation
 To evaluate a pre-trained CycleMLP-B5 on ImageNet val with a single GPU run:
 ```
 python main.py --eval --model CycleMLP_B5 --resume path/to/CycleMLP_B5.pth --data-path /path/to/imagenet
 ```
 
 
-## Training
+### Training
 
 To train CycleMLP-B5 on ImageNet on a single node with 8 gpus for 300 epochs run:
 ```
 python -m torch.distributed.launch --nproc_per_node=8 --use_env main.py --model CycleMLP_B5 --batch-size 128 --data-path /path/to/imagenet --output_dir /path/to/save
 ```
-## Acknowledgement
+### Acknowledgement
 This code is based on [DeiT](https://github.com/facebookresearch/deit) and [pytorch-image-models](https://github.com/rwightman/pytorch-image-models). Thanks for their wonderful works
 
 
-# Citing
+## Citing
 
 ```bibtex
 @inproceedings{
@@ -102,6 +104,6 @@ url={https://openreview.net/forum?id=NMEceG4v69Y}
 }
 ```
 
-# License
+## License
 
 CycleMLP is released under MIT License.

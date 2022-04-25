@@ -31,9 +31,9 @@ We provide CycleMLP models pretrained on ImageNet 2012.
 | CycleMLP-B3          | 38M        |  6.9G    |  82.4%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B3.pth)|
 | CycleMLP-B4          | 52M        |  10.1G   |  83.0%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B4.pth)|
 | CycleMLP-B5          | 76M        |  12.3G   |  83.2%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_B5.pth)|
-| CycleMLP-T           | 28M        |  4.4G    |  81.3%     |[model]()|
-| CycleMLP-S           | 50M        |  8.5G    |  82.9%     |[model]()|
-| CycleMLP-B           | 88M        |  15.2G   |  83.4%     |[model]()|
+| CycleMLP-T           | 28M        |  4.4G    |  81.3%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_tiny.pth)|
+| CycleMLP-S           | 50M        |  8.5G    |  82.9%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_small.pth)|
+| CycleMLP-B           | 88M        |  15.2G   |  83.4%     |[model](https://github.com/ShoufaChen/CycleMLP/releases/download/v0.1/CycleMLP_base.pth)|
 
 ## Usage
 
